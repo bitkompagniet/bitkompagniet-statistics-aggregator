@@ -6,8 +6,9 @@
   "scripts": {
     "test": "mocha",
     "lint": "eslint .",
+    "pretest": "npm run lint",
     "isclean": "git diff --exit-code && git diff --cached --exit-code",
-    "prepublish": "npm run isclean && npm run test && npm run lint"
+    "prepublish": "npm run isclean && npm run test"
   },
   "repository": {
     "type": "git",
