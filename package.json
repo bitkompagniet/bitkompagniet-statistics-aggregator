@@ -10,8 +10,8 @@
   "repository": {
     "type": "git",
     "url": "git@github.com:bitkompagniet/bitkompagniet-statistics-aggregator.git"
-  }
-  "author": "",
+  },
+  "author": "Kristian Videmark Parkov",
   "license": "ISC",
   "dependencies": {
     "cross-env": "^1.0.8",
