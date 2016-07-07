@@ -1,11 +1,13 @@
 {
   "name": "bitkompagniet-statistics-aggregator",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A group-reduce function interface for statistical presentation",
   "main": "index.js",
   "scripts": {
     "test": "mocha",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "isclean": "git diff --exit-code && git diff --cached --exit-code",
+    "prepublish": "npm run isclean && npm run test && npm run lint"
   },
   "repository": {
     "type": "git",
