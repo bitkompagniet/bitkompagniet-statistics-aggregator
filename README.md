@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/bitkompagniet/bitkompagniet-statistics-aggregator.svg?branch=master)](https://travis-ci.org/bitkompagniet/bitkompagniet-statistics-aggregator)
+
 A slim wrapper of logic and sanity around a standard **group-reduce** operation
 that provides an interface specific to statistical data presentation.
 
